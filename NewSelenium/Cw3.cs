@@ -48,7 +48,8 @@ namespace NewSelenium
         [TearDown]
         public void TestFinish()
         {
-            //m_driver.Close();
+            m_driver.Close();
+            //any comment for GIT commit
         }
 
     }
